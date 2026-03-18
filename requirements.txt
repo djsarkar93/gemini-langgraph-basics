@@ -1,0 +1,39 @@
+# --- Core Framework & Abstractions ---
+# Foundational logic, message types, and LCEL (LangChain Expression Language)
+langchain-core==1.2.19
+# Community-maintained integrations for document loaders and third-party tools
+langchain-community==0.4.1
+# The core library for building stateful, cyclic AI workflows
+langgraph==1.1.2
+# Ready-made agent architectures like the ReAct agent
+langgraph-prebuilt==1.0.8
+
+# --- Google Gemini Integration ---
+# Official LangChain integration for Google Generative AI (Gemini 3.1)
+langchain-google-genai==4.2.1
+
+# --- State Management & Persistence ---
+# SQLite-based checkpointer to save and resume agent states/conversations
+langgraph-checkpoint-sqlite==3.0.3
+
+# --- Search & External Tools ---
+# Search engine optimized for LLMs to provide clean web data
+langchain-tavily==0.2.17
+# Python wrapper to search and summarize Wikipedia entries
+wikipedia==1.4.0
+# Utility to ensure reliable, schema-compliant tool/function calling
+trustcall==0.0.39
+
+# --- Observability & Developer Tooling ---
+# Platform for tracing, debugging, and monitoring LLM performance
+langsmith==0.7.20
+# Python client to interact with LangGraph deployment servers
+langgraph-sdk==0.3.11
+# CLI tool for local development and testing of LangGraph servers
+langgraph-cli[inmem]==0.4.18
+
+# --- Environment & Notebook Interface ---
+# Interactive development environment for Python and documentation
+notebook==7.5.5
+# Security utility to load API keys from a .env file
+python-dotenv==1.2.2
